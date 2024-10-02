@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.procject_cal"
+    namespace = "com.example.project_cal"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.procject_cal"
+        applicationId = "com.example.project_cal"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

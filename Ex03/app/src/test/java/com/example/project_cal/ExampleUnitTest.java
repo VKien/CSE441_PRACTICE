@@ -1,4 +1,4 @@
-package com.example.procject_cal;
+package com.example.project_cal;
 
 import org.junit.Test;
 
