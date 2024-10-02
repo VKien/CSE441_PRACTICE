@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Procject_cal"
+rootProject.name = "SimpleCameraApp"
 include(":app")
  
