@@ -19,13 +19,13 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        edt1 = edt1.findViewById(R.id.edta);
-        edt2 = edt2.findViewById(R.id.edtb);
-        edt3 = edt3.findViewById(R.id.edtc);
-        btncong = btncong.findViewById(R.id.btncong);
-        btntru = btntru.findViewById(R.id.btntru);
-        btnchia = btnchia.findViewById(R.id.btnchia);
-        btnnhan = btnnhan.findViewById(R.id.btnnhan);
+        edt1 = findViewById(R.id.edta);
+        edt2 = findViewById(R.id.edtb);
+        edt3 = findViewById(R.id.edtc);
+        btncong = findViewById(R.id.btncong);
+        btntru = findViewById(R.id.btntru);
+        btnchia = findViewById(R.id.btnchia);
+        btnnhan = findViewById(R.id.btnnhan);
         btncong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
