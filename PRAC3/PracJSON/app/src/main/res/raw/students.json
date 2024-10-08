@@ -1,0 +1,152 @@
+[
+  {
+    "id": "B27DCCN100",
+    "full_name": {
+      "first": "Hoa",
+      "last": "Mai",
+      "midd": "Thị"
+    },
+    "gender": "Nữ",
+    "birth_date": "10/10/2009",
+    "email": "hoamai@xmail.com",
+    "address": "Nghệ An",
+    "major": "CNTT",
+    "gpa": 3.25,
+    "year": 2
+  },
+  {
+    "id": "B28DCCN101",
+    "full_name": {
+      "first": "Linh",
+      "last": "Nguyễn",
+      "midd": "Ngọc"
+    },
+    "gender": "Nữ",
+    "birth_date": "15/07/2010",
+    "email": "linhngoc@xmail.com",
+    "address": "Hà Nội",
+    "major": "CNTT",
+    "gpa": 3.75,
+    "year": 2
+  },
+  {
+    "id": "B29DCCN102",
+    "full_name": {
+      "first": "Minh",
+      "last": "Hoàng",
+      "midd": "Đức"
+    },
+    "gender": "Nam",
+    "birth_date": "20/03/2009",
+    "email": "minhduc@xmail.com",
+    "address": "Đà Nẵng",
+    "major": "Khoa học máy tính",
+    "gpa": 3.37,
+    "year": 2
+  },
+  {
+    "id": "B30DCCN103",
+    "full_name": {
+      "first": "Khang",
+      "last": "Huỳnh",
+      "midd": "Nguyên"
+    },
+    "gender": "Nam",
+    "birth_date": "25/12/2008",
+    "email": "nguyenkhang@xmail.com",
+    "address": "TP. Hồ Chí Minh",
+    "major": "An toàn thông tin",
+    "gpa": 3.28,
+    "year": 2
+  },
+  {
+    "id": "B31DCCN104",
+    "full_name": {
+      "first": "Ngọc Mai",
+      "last": "Thị",
+      "midd": "Thị"
+    },
+    "gender": "Nữ",
+    "birth_date": "05/08/2009",
+    "email": "ngocmai@xmail.com",
+    "address": "Quảng Bình",
+    "major": "CNTT",
+    "gpa": 3.45,
+    "year": 2
+  },
+  {
+    "id": "B32DCCN105",
+    "full_name": {
+      "first": "Hương",
+      "last": "Trần",
+      "midd": "Thị Thu"
+    },
+    "gender": "Nữ",
+    "birth_date": "01/01/2008",
+    "email": "tranthu@xmail.com",
+    "address": "Huế",
+    "major": "Khoa học máy tính",
+    "gpa": 3.18,
+    "year": 2
+  },
+  {
+    "id": "B33DCCN106",
+    "full_name": {
+      "first": "Huệ",
+      "last": "Mai",
+      "midd": "Thị"
+    },
+    "gender": "Nữ",
+    "birth_date": "13/09/2009",
+    "email": "huethu@xmail.com",
+    "address": "Bắc Ninh",
+    "major": "CNTT",
+    "gpa": 3.32,
+    "year": 2
+  },
+  {
+    "id": "B34DCCN107",
+    "full_name": {
+      "first": "An",
+      "last": "Lê",
+      "midd": "Thị Ngọc"
+    },
+    "gender": "Nữ",
+    "birth_date": "22/11/2008",
+    "email": "lenngocan@xmail.com",
+    "address": "Quảng Trị",
+    "major": "An toàn thông tin",
+    "gpa": 3.15,
+    "year": 2
+  },
+  {
+    "id": "B35DCCN108",
+    "full_name": {
+      "first": "Thanh",
+      "last": "Nguyễn",
+      "midd": "Lâm"
+    },
+    "gender": "Nam",
+    "birth_date": "18/04/2009",
+    "email": "thanhnguyen@xmail.com",
+    "address": "Hải Phòng",
+    "major": "Khoa học máy tính",
+    "gpa": 3.40,
+    "year": 2
+  },
+  {
+    "id": "B36DCCN109",
+    "full_name": {
+      "first": "Quân",
+      "last": "Phạm",
+      "midd": "Minh"
+    },
+    "gender": "Nam",
+    "birth_date": "29/02/2009",
+    "email": "phamquanm@xmail.com",
+    "address": "Vũng Tàu",
+    "major": "CNTT",
+    "gpa": 3.60,
+    "year": 2
+  }
+]
