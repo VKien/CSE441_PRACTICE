@@ -13,13 +13,11 @@ public class Student implements Serializable {
     private double gpa;
     private int year;
 
-    // Inner class cho full_name
     public static class FullName implements Serializable {
         private String first;
         private String last;
         private String midd;
 
-        // Getters và Setters cho các trường của FullName
         public String getFirst() {
             return first;
         }
@@ -44,8 +42,6 @@ public class Student implements Serializable {
             this.midd = midd;
         }
     }
-
-    // Getters và Setters cho các trường của Student
     public String getId() {
         return id;
     }

@@ -1,5 +1,6 @@
 package com.example.prac3;
 
+import android.content.Intent;
 import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -26,13 +27,8 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
-        // Đọc dữ liệu JSON từ file raw
         studentList = getStudentsFromJSON();
-
-        // Gắn adapter cho RecyclerView
         adapter = new StudentAdapter(studentList, student -> {
-            // Xử lý khi nhấn vào sinh viên
             Intent intent = new Intent(MainActivity.this, StudentDetailActivity.class);
             intent.putExtra("student", student);
             startActivity(intent);
@@ -41,19 +37,14 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(adapter);
 
         FloatingActionButton fab = findViewById(R.id.fab);
-        // Tạm thời không xử lý sự kiện cho FAB
     }
 
-    // Phương thức đọc JSON từ file raw và chuyển đổi thành danh sách sinh viên
     private List<Student> getStudentsFromJSON() {
         List<Student> students = new ArrayList<>();
 
         try {
-            // Đọc file students.json từ thư mục raw
             InputStream inputStream = getResources().openRawResource(R.raw.students);
             InputStreamReader reader = new InputStreamReader(inputStream);
-
-            // Sử dụng Gson để parse dữ liệu JSON thành danh sách sinh viên
             Gson gson = new Gson();
             Type studentListType = new TypeToken<ArrayList<Student>>() {}.getType();
             students = gson.fromJson(reader, studentListType);

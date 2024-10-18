@@ -1,3 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <item name="student_icon" type="id" />
+    <item name="student_name" type="id" />
+    <item name="student_gpa" type="id" />
 </resources>

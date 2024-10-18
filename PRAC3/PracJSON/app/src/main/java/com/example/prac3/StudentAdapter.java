@@ -53,11 +53,14 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentV
             studentGPA = itemView.findViewById(R.id.student_gpa);
         }
 
-        public void bind(final Student student, final OnItemClickListener listener) {
-            studentName.setText(student.getFirstName() + " " + student.getLastName());
-            studentGPA.setText("GPA: " + student.getGpa());
-            itemView.setOnClickListener(v -> listener.onItemClick(student));
+        public void bind(Student student, OnItemClickListener listener) {
         }
+
+//        public void bind(final Student student, final OnItemClickListener listener) {
+//            studentName.setText(student.getFirstName() + " " + student.getLastName());
+//            studentGPA.setText("GPA: " + student.getGpa());
+//            itemView.setOnClickListener(v -> listener.onItemClick(student));
+//        }
     }
 }
 
