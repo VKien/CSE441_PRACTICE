@@ -48,20 +48,26 @@
             <Button
                 android:id="@+id/btnFar"
                 android:layout_width="192dp"
-                android:layout_height="wrap_content"
-                android:text="Convert To Celsius" />
+                android:layout_height="250px"
+                android:text="Convert To Celsius"
+                android:textSize="20sp"
+                app:cornerRadius="0px" />
 
             <Button
                 android:id="@+id/btnCel"
                 android:layout_width="214dp"
-                android:layout_height="wrap_content"
-                android:text="Convert To Fahrenheit" />
+                android:layout_height="250px"
+                android:text="Convert To Fahrenheit"
+                android:textSize="20sp"
+                app:cornerRadius="0px" />
         </LinearLayout>
 
         <Button
             android:id="@+id/btnClear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Clear" />
+            android:height="150px"
+            android:text="Clear"
+            app:cornerRadius="0px" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
