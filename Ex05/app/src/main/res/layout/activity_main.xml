@@ -34,14 +34,14 @@
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
             android:text="Năm dương lịch:"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/editnamduonglich"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="2"
-            android:hint="2013"
             android:inputType="number" />
     </LinearLayout>
 
@@ -56,7 +56,8 @@
         android:layout_marginBottom="10dp"
         android:background="#C3BCBC"
         android:text="Chuyển đổi"
-        android:textColor="#000000" />
+        android:textColor="#000000"
+        android:textSize="20sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -73,7 +74,8 @@
             android:layout_gravity="center_vertical"
             android:layout_weight="1"
             android:text="Năm âm lịch:"
-            android:textColor="#000000" />
+            android:textColor="#000000"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textViewKetQua"
@@ -81,8 +83,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:gravity="center"
-            android:text="Quý Tỵ"
-            android:textColor="#000000" />
+            android:textAlignment="viewStart"
+            android:textColor="#000000"
+            android:textSize="20sp" />
     </LinearLayout>
 
 </LinearLayout>
